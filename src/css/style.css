@@ -217,8 +217,11 @@ body{
 }
 .card-image{
     grid-area: image;
-    background: url(/image/homecha_poster.jpg);
-    background-size: cover;
+    object-fit: cover;
+    object-position: top;
+
+    width: 100%;
+    height: 100%;
 
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
